@@ -1,0 +1,14 @@
+{
+    "input_fqs": "/path/to/fq",
+    "ctgfasta_path": "/path/to/seeds.fa",
+    "reads_ctg_bam_path": "/path/to/reads_2_seeds.bam"
+    "cluster_settings": {
+        "cluster_type": "IPCluster",
+        "processes": 128,
+        "cluster_options": {
+            "scheduler": "slurm",
+            "queue": "normal",
+            "extra_params": {"mem":16}
+        }
+    }
+}
